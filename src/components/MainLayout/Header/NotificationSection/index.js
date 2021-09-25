@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
     ...theme.typography.mediumAvatar,
     transition: 'all .2s ease-in-out',
     // background: theme.palette.secondary.light,
-    color: theme.palette.secondary.dark,
+    color: '#FFF !important', //theme.palette.secondary.dark,
     '&[aria-controls="menu-list-grow"],&:hover': {
       background: theme.palette.secondary.dark,
       color: theme.palette.secondary.light,
@@ -154,7 +154,7 @@ const NotificationSection = () => {
             onClick={handleToggle}
             color="inherit"
           >
-            <IconBell stroke={1.5} size="1.3rem" fill="#FFF" />
+            <IconBell stroke={1.5} size="1.5rem" fill="#FFF" />
           </Avatar>
         </ButtonBase>
       </Box>
